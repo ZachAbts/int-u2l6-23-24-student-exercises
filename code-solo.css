@@ -2,8 +2,6 @@
 
 /* 3. Select the sample-1 class. Using the display property, apply a value of flex. Using the justify-content property, apply a value of flex-start. */
 
-
-
 /* 4. Select the sample-2 class. Using the display property, apply a value of flex. Using the justify-content property, apply a value of space-between. */
 
 
@@ -12,10 +10,22 @@
 /* The image should have a position property with value of fixed, a bottom property with a value of 10px, and a right property with a value of 10px. */
 
 
-
-
-
+.sample-1 {
+    display: flex;
+    justify-content:flex-start;
+}
+.sample-2 {
+    display:flex;
+    justify-content:space-between;
+}
+img {
+    display:flex;
+    justify-content:fixed;
+    border-bottom: 10px;
+    border-right: 10px;
+}
 /** Styling for the items of Sample 1 **/
+
 .item-1 {
     margin: 5px;
     padding: 5px;
